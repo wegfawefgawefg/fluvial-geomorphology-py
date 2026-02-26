@@ -1,0 +1,24 @@
+[project]
+name = "fluvialgeomorphology"
+version = "0.1.0"
+description = "Archived fluvial geomorphology simulation prototypes"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+]
+
+[project.scripts]
+fluvial-sim1 = "fluvialgeomorphology.cli:sim1"
+fluvial-sim2 = "fluvialgeomorphology.cli:sim2"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fluvialgeomorphology"]
