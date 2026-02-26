@@ -1,5 +1,8 @@
 # fluvialgeomorphology
 
+![Simulation 1 snapshot](assets/pic1.png)
+![Simulation 2 snapshot](assets/pic2.png)
+
 Archived Python prototypes for fluvial geomorphology-style grid simulations.
 
 ## What this project contains
